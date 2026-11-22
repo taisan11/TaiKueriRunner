@@ -1,0 +1,23 @@
+# Normalize text files to LF so checkouts are stable across platforms.
+* text=auto eol=lf
+
+*.pbxproj text eol=lf
+*.xcconfig text eol=lf
+*.plist text eol=lf
+*.entitlements text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
+
+# Binary assets and build outputs.
+*.ipa binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.heic binary
+*.pdf binary
+*.sqlite binary
+*.sqlite3 binary
+*.db binary
+*.csstore binary
+*.dSYM -text -diff

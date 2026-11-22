@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.ipa
+*.dSYM/
+*.xcscmblueprint
+*.xccheckout
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Local signing / team settings (never commit)
+Config/Local.xcconfig
+
+# Editor and tooling
+.vscode/
+.idea/
